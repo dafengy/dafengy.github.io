@@ -27,6 +27,7 @@ enableGitInfo = true
 # 是否使用 emoji 代码
 enableEmoji = true
 
+timeout = 60000
 # Post frontmatter config
 [frontmatter]
   lastmod = [":git", "lastmod", ":fileModTime", ":defalut"]
