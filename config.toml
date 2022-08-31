@@ -75,7 +75,7 @@ publishDir="docs"
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
     # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
-    svgFavicon = ""
+    svgFavicon = "/logo.png"
     # Safari mask icon color
     # Safari 图标颜色
     iconColor = "#5bbad5"
@@ -108,7 +108,7 @@ publishDir="docs"
       name = "大风的个人空间"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = ""
+      pre = " "
       # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
@@ -120,7 +120,7 @@ publishDir="docs"
     [params.header.subtitle]
       # subtitle name
       # 副标题名称
-      name = ""
+      name = "致生命の存在"
       # whether to use typeit animation for subtitle name
       # 是否为副标题显示打字机动画
       typeit = false
@@ -134,51 +134,51 @@ publishDir="docs"
     custom = ''
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
-    hugo = true
+    hugo = false
     # whether to show copyright info
     # 是否显示版权信息
-    copyright = true
+    copyright = false
     # whether to show the author
     # 是否显示作者
-    author = true
+    author = false
     # site creation year
     # 网站创立年份
-    since = 2021
+    #since = 2021
     # Site creation time since v0.2.14
     # 网站创立时间 since v0.2.14
-    siteTime = '2021-12-18T16:15:22+08:00'
+    # siteTime = '2021-12-18T16:15:22+08:00'
     # whether to show total word count of site content since v0.2.14
     # 是否显示网站内容总字数 since v0.2.14
-    wordCount = true
+    # wordCount = true
     # Public network security only in China (HTML format is supported) since v0.2.12
     # 公网安备信息，仅在中国使用 (支持 HTML 格式) since v0.2.12
-    gov = ""
+    # gov = ""
     # ICP info only in China (HTML format is supported)
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-    icp = ""
+    # icp = ""
     # license info (HTML format is supported)
     # 许可协议信息 (支持 HTML 格式)
-    license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
-
+    # license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    license = ""
   # Section (all posts) page config
   # Section (所有文章) 页面配置
   [params.section]
     # special amount of posts in each section page
     # section 页面每页显示文章数量
-    paginate = 20
+    paginate = 6
     # date format (month and day)
     # 日期格式 (月和日)
     dateFormat = "01-02"
     # amount of RSS pages
     # RSS 文章数目
-    rss = 10
+    rss = 5
     # recently updated posts settings since v0.2.13
     # 最近更新文章设置 since v0.2.13
     [params.section.recentlyUpdated]
       enable = true
       rss = true
       days = 30
-      maxCount = 10
+      maxCount = 5
 
   # List (category or tag) page config
   # List (目录或标签) 页面配置
@@ -219,7 +219,8 @@ publishDir="docs"
     fontawesome = true
     # license info (HTML format is supported)
     # 许可协议信息（支持 HTML 格式）
-    license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    # license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    license = ""
     # whether to show link to Raw Markdown content of the content
     # 是否显示原始 Markdown 文档内容的链接
     linkToMarkdown = true
@@ -228,7 +229,7 @@ publishDir="docs"
     rssFullText = false
     # Page style ("narrow", "normal", "wide", ...) since v0.2.13
     # 页面样式 ("narrow", "normal", "wide", ...) since v0.2.13
-    pageStyle = "normal"
+    pageStyle = "wide"
     # Gravatar is force-used as the author's avatar since v0.2.14
     # 强制使用 Gravatar 作为作者头像 since v0.2.14
     gravatarForce = true
@@ -332,17 +333,17 @@ publishDir="docs"
     [params.page.share]
       enable = true
       Twitter = true
-      Facebook = true
+      Facebook = false
       Linkedin = false
       Whatsapp = false
       Pinterest = false
       Tumblr = false
-      HackerNews = true
+      HackerNews = false
       Reddit = false
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
       Pocket = false
       Digg = false
@@ -687,7 +688,7 @@ publishDir="docs"
   # 在左上角或者右上角显示 GitHub 开源链接 since v0.2.14
   [params.githubCorner]
     enable = true
-    permalink = "https://github.com/hugo-fixit/FixIt"
+    permalink = "https://github.com/dafengy/dafengy.github.io"
     title = "View source on GitHub"
     position = "right" # left, right
   # Gravatar config since v0.2.14
@@ -831,7 +832,7 @@ enableEmoji = true
         pre = "<i class='fa-brands fa-github fa-fw' aria-hidden='true'></i>"
         post = ""
         name = ""
-        url = "https://github.com/hugo-fixit/FixIt"
+        url = "https://github.com/dafengy/dafengy.github.io"
         title = "GitHub"
         weight = 8
         [languages.en.menu.main.params]
@@ -877,7 +878,7 @@ enableEmoji = true
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page
-          subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+          subtitle = "Live and strive!"
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
@@ -891,15 +892,15 @@ enableEmoji = true
           paginate = 6
       # Social config in home page
       [languages.en.params.social]
-        GitHub = "xxxx"
+        GitHub = ""
         Linkedin = ""
         Twitter = "xxxx"
-        Instagram = "xxxx"
-        Facebook = "xxxx"
-        Telegram = "xxxx"
+        Instagram = ""
+        Facebook = ""
+        Telegram = ""
         Medium = ""
         Gitlab = ""
-        Youtubelegacy = "xxxx"
+        Youtubelegacy = ""
         Youtubecustom = ""
         Youtubechannel = ""
         Tumblr = ""
@@ -962,11 +963,11 @@ enableEmoji = true
         QQGroup = "" # https://qun.qq.com/join.html
         Diaspora = ""
         CSDN = ""
-        Email = "xxxx@xxxx.com"
+        Email = "yufeng.9008@gmail.com"
         RSS = true # since v0.2.0
-        [languages.en.params.social.Mastodon]
-          id = "@xxxx"
-          prefix = "https://mastodon.technology/"
+        #[languages.en.params.social.Mastodon]
+          #id = "@xxxx"
+          #prefix = "https://mastodon.technology/"
 
   [languages.zh-cn]
     weight = 2
@@ -1063,14 +1064,14 @@ enableEmoji = true
         pre = "<i class='fa-brands fa-github fa-fw' aria-hidden='true'></i>"
         post = ""
         name = ""
-        url = "https://github.com/hugo-fixit/FixIt"
+        url = "https://github.com/dafengy/dafengy.github.io"
         title = "GitHub"
         weight = 8
         [languages.zh-cn.menu.main.params]
           class = "d-none-desktop text-center"
     [languages.zh-cn.params]
       # 网站描述
-      description = "关于 FixIt 主题"
+      description = "大风的个人博客"
       # 网站关键词
       keywords = ["码字", "生活", "个人博客"]
       # 搜索配置
@@ -1104,11 +1105,11 @@ enableEmoji = true
           # Gravatar 邮箱，用于优先在主页显示的头像
           gravatarEmail = ""
           # 主页显示头像的 URL
-          avatarURL = "/images/avatar.png"
+          avatarURL = "/avatar.png"
           # 主页显示的网站标题 (支持 HTML 格式)
           title = ""
           # 主页显示的网站副标题
-          subtitle = "一个简洁、优雅且高效的 Hugo 主题"
+          subtitle = "生命不息，折腾不止！"
           # 是否为副标题显示打字机动画
           typeit = true
           # 是否显示社交账号
@@ -1122,7 +1123,7 @@ enableEmoji = true
           paginate = 6
       # 主页的社交信息设置
       [languages.zh-cn.params.social]
-        GitHub = "xxxx"
+        GitHub = ""
         Linkedin = ""
         Twitter = ""
         Instagram = ""
@@ -1160,13 +1161,13 @@ enableEmoji = true
         Hackernews = ""
         Kickstarter = ""
         Patreon = ""
-        Steam = "xxxx"
+        Steam = ""
         Twitch = ""
         Strava = ""
         Skype = ""
         Whatsapp = ""
-        Zhihu = "xxxx"
-        Douban = "xxxx"
+        Zhihu = ""
+        Douban = ""
         Angellist = ""
         Slidershare = ""
         Jsfiddle = ""
@@ -1179,7 +1180,7 @@ enableEmoji = true
         Researchgate = ""
         Mastodon = ""
         Thingiverse = ""
-        Devto = "xxxx"
+        Devto = ""
         Gitea = ""
         XMPP = ""
         Matrix = ""
@@ -1191,10 +1192,10 @@ enableEmoji = true
         BuyMeaCoffee = ""
         Linktree = ""
         QQ = ""
-        QQGroup = "awbwdTtSQ_-H5QGzeJxdWgv6JMbNehNM" # https://qun.qq.com/join.html
+        QQGroup = ""
         Diaspora = ""
         CSDN = ""
-        Email = "xxxx@xxxx.com"
+        Email = "yufeng.9008@gmail.com"
         RSS = true # since v0.2.0
       # 盘古之白配置 since v0.2.12
       [languages.zh-cn.params.pangu]
@@ -1205,7 +1206,7 @@ enableEmoji = true
       [languages.zh-cn.params.watermark]
         enable = true
         # 水印内容 (允许 HTML 格式)
-        content = '<img class="fixit-icon" src="/images/fixit.svg" alt="FixIt logo" /> FixIt 主题'
+        content = '<img class="fixit-icon" src="/logo.png" alt="f logo" /> f blog'
         # 水印透明度
         opacity = 0.0125
         # 单水印高度 单位：px
@@ -1213,7 +1214,7 @@ enableEmoji = true
       # 在顶部右侧显示 GitHub 开源链接 since v0.2.14
       [languages.zh-cn.params.githubCorner]
         enable = true
-        permalink = "https://github.com/hugo-fixit/FixIt"
+        permalink = "https://github.com/dafengy/dafengy.github.io"
         title = "在 GitHub 上查看源代码"
         position = "right" # left, right
       # Gravatar 设置 since v0.2.14
