@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>大风的个人空间</title>
+    <link>https://dafengy.github.io/</link>
+    <description>This is My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>yufeng.9008@gmail.com (于峰)</managingEditor>
+      <webMaster>yufeng.9008@gmail.com (于峰)</webMaster><lastBuildDate>Mon, 29 Aug 2022 11:48:08 &#43;0800</lastBuildDate>
+      <atom:link href="https://dafengy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+  <title>First Post</title>
+  <link>https://dafengy.github.io/posts/first-post/</link>
+  <pubDate>Mon, 29 Aug 2022 11:48:08 &#43;0800</pubDate>
+  <author>于峰</author>
+  <guid>https://dafengy.github.io/posts/first-post/</guid>
+  <description><![CDATA[Hello world. ]]></description>
+</item>
+</channel>
+</rss>

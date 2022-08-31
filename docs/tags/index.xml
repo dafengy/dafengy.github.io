@@ -1,0 +1,8 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Tags - Tag - 大风的个人空间</title>
+    <link>https://dafengy.github.io/tags/</link>
+    <description>Tags - Tag - 大风的个人空间</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>yufeng.9008@gmail.com (于峰)</managingEditor>
+      <webMaster>yufeng.9008@gmail.com (于峰)</webMaster><atom:link href="https://dafengy.github.io/tags/" rel="self" type="application/rss+xml" /></channel>
+</rss>
